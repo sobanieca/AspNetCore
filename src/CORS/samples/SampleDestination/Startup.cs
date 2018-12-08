@@ -58,7 +58,7 @@ namespace SampleDestination
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseEndpointRouting(routing =>
+            app.UseRouting(routing =>
             {
                 routing.Map("/allow-origin", HandleRequest).WithCorsPolicy("AllowOrigin");
                 routing.Map("/allow-header-method", HandleRequest).WithCorsPolicy("AllowHeaderMethod");
