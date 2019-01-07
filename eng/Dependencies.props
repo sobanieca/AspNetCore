@@ -33,7 +33,9 @@ and are generated based on the last package release.
     <LatestPackageReference Include="Microsoft.CSharp" Version="$(MicrosoftCSharpPackageVersion)" />
     <LatestPackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="$(MicrosoftEntityFrameworkCoreInMemoryPackageVersion)" />
     <LatestPackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="$(MicrosoftEntityFrameworkCoreRelationalPackageVersion)" />
+    <LatestPackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(MicrosoftEntityFrameworkCoreSqlitePackageVersion)" />
     <LatestPackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(MicrosoftEntityFrameworkCoreSqlServerPackageVersion)" />
+    <LatestPackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="$(MicrosoftEntityFrameworkCoreToolsPackageVersion)" />
     <LatestPackageReference Include="Microsoft.EntityFrameworkCore" Version="$(MicrosoftEntityFrameworkCorePackageVersion)" />
     <LatestPackageReference Include="Microsoft.Extensions.ActivatorUtilities.Sources" Version="$(MicrosoftExtensionsActivatorUtilitiesSourcesPackageVersion)" />
     <LatestPackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="$(MicrosoftExtensionsCachingAbstractionsPackageVersion)" />
@@ -66,6 +68,7 @@ and are generated based on the last package release.
     <LatestPackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="$(MicrosoftExtensionsLocalizationAbstractionsPackageVersion)" />
     <LatestPackageReference Include="Microsoft.Extensions.Localization" Version="$(MicrosoftExtensionsLocalizationPackageVersion)" />
     <LatestPackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="$(MicrosoftExtensionsLoggingAbstractionsPackageVersion)" />
+    <LatestPackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="$(MicrosoftExtensionsLoggingAzureAppServicesPackageVersion)" />
     <LatestPackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="$(MicrosoftExtensionsLoggingConfigurationPackageVersion)" />
     <LatestPackageReference Include="Microsoft.Extensions.Logging.Console" Version="$(MicrosoftExtensionsLoggingConsolePackageVersion)" />
     <LatestPackageReference Include="Microsoft.Extensions.Logging.Debug" Version="$(MicrosoftExtensionsLoggingDebugPackageVersion)" />
@@ -121,6 +124,9 @@ and are generated based on the last package release.
     <LatestPackageReference Include="Microsoft.AspNet.WebApi.Client" Version="$(MicrosoftAspNetWebApiClientPackageVersion)" />
     <LatestPackageReference Include="Microsoft.Azure.KeyVault" Version="2.3.2" />
     <LatestPackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <LatestPackageReference Include="IdentityServer4" Version="$(IdentityServer4PackageVersion)" />
+    <LatestPackageReference Include="IdentityServer4.AspNetIdentity" Version="$(IdentityServer4AspNetIdentityPackageVersion)" />
+    <LatestPackageReference Include="IdentityServer4.EntityFramework" Version="$(IdentityServer4EntityFrameworkPackageVersion)" />
     <LatestPackageReference Include="Moq" Version="4.10.0" />
     <LatestPackageReference Include="Newtonsoft.Json.Bson" Version="$(NewtonsoftJsonBsonPackageVersion)" />
     <!-- This version is required by MSBuild tasks or Visual Studio extensions. -->
